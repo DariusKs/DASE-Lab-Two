@@ -1,0 +1,17 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "auto data",
+ "type": "object",
+ "properties":{
+     "ID" : {"type":"integer", "source":"ID"},
+     "mpg" : {"type":"integer", "source":"mpg"},
+     "cylinders" : {"type":"integer", "source":"cylinders"},
+     "displacement" : {"type":"integer", "source":"displacement"},
+     "horsepower" : {"type":"integer", "source":"horsepower"},
+     "weight" : {"type":"integer", "source":"weight"},
+     "acceleration" : {"type":"integer", "source":"acceleration"},
+     "modelyear" : {"type":"integer", "source":"model year"},
+     "origin" : {"type":"integer", "source":"origin"},
+     "carname" : {"type":"string", "source":"car name"}
+     }
+}
